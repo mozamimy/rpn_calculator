@@ -1,30 +1,23 @@
 # RpnCalculator
 
-TODO: Write a gem description
+A simple RPN calculator for an atIT article :rabbit:
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'rpn_calculator'
+```shell
+$ (sudo) gem install 'rpn_calculator'
 ```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install rpn_calculator
 
 ## Usage
 
-TODO: Write usage instructions here
+```shell
+$ rpn_calculator 10.5 2 7 + -
+1.5
+```
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/rpn_calculator/fork )
+1. Fork it ( https://github.com/mozamimy/rpn_calculator/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
