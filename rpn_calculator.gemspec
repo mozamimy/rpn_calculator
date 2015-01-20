@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = RpnCalculator::VERSION
   spec.authors       = ["Moza USANE"]
   spec.email         = ["mozamimy@quellencode.org"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{A simple RPN calculator for an atIT article.}
+  spec.description   = %q{A simple RPN calculator for an atIT article.}
+  spec.homepage      = "https://github.com/mozamimy/rpn_calculator"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
