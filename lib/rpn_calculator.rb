@@ -1,5 +1,9 @@
 require "rpn_calculator/version"
 
 module RpnCalculator
-  # Your code goes here...
+  class << self
+    def run(args)
+      puts "my first gem"
+    end
+  end
 end
