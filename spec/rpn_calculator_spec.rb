@@ -1,11 +1,8 @@
-require 'spec_helper'
+require "spec_helper"
 
-describe RpnCalculator do
-  it 'has a version number' do
-    expect(RpnCalculator::VERSION).not_to be nil
-  end
-
-  it 'does something useful' do
-    expect(false).to eq(true)
+RSpec.describe RpnCalculator do
+  describe ".run" do
+    subject { -> { RpnCalculator.run(["2.7", "1.1", "-", "-5.2", "0.9", "+", "*"]) } }
+    it { expect(subject).to be_output "-6.88\n" }
   end
 end
