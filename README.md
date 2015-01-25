@@ -15,6 +15,10 @@ $ rpn_calculator 10.5 2 7 + -
 1.5
 ```
 
+## License
+
+MIT
+
 ## Contributing
 
 1. Fork it ( https://github.com/mozamimy/rpn_calculator/fork )
