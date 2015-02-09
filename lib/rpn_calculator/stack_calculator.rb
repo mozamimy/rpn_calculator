@@ -22,6 +22,7 @@ module RpnCalculator
     end
 
     private
+
     def numeric?(s)
       begin
         Float(s)
